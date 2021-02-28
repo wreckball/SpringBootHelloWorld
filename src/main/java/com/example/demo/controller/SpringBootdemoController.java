@@ -9,6 +9,6 @@ public class SpringBootdemoController {
 	
 	@RequestMapping("/")
 	public String Spring(@RequestParam(value="name",defaultValue = "World") String name) {
-		return "hello %s" + name;
+		return "Hello " + name;
 	}
 }
